@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Actividad Diagnóstico</h1>
+    </header>
+
+    <form action="Formulario" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" name="correo" placeholder="Correo electrónico">
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" name="contraseña" placeholder="Contraseña">
+        <label for="repetir_contraseña">Repetir contraseña:</label>
+        <input type="password" name="repetir_contraseña" placeholder="Repetir contraseña">
+        <input type="radio" name="genero" value="masculino">
+        <label for="masculino" id="masculino">Masculino</label>
+        <input type="radio" name="genero" value="femenino">
+        <label for="femenino" id="femenino">Femenino</label>
+        <button type="button">Acepto terminos y condiciones</button>
+        <input type="submit" value="Enviar">
+    </form>
+    <span>Samuel Dominguez Lopez</span>
+</body>
+</html>
